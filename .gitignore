@@ -21,6 +21,13 @@ venv.bak/
 uploads/*
 !uploads/.gitkeep
 
+# Qdrant local vector-database storage (persistent, but not committed)
+qdrant_data/
+
+# Logs
+*.log
+scratch/
+
 # Operating system files
 .DS_Store
 Thumbs.db
@@ -30,7 +37,3 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
-
-# Logs & temp
-*.log
-scratch/
